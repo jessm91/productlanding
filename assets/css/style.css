@@ -1,0 +1,8 @@
+nav {
+    position: fixed;
+}
+
+#nav-bar ul {
+    display: flex;
+    list-style: none;
+}
