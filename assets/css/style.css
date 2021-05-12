@@ -6,3 +6,24 @@ nav {
     display: flex;
     list-style: none;
 }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-direction: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.column-right {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
