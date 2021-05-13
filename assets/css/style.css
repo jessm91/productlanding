@@ -1,5 +1,10 @@
+* {
+    background-color: #F6D28B;
+}
+
 nav {
     position: fixed;
+    margin: 7px 0;
 }
 
 #nav-bar ul {
@@ -7,11 +12,41 @@ nav {
     list-style: none;
 }
 
+#nav-bar ul li {
+    padding: 10px 16px;
+}
+
+#nav-bar a, #shop a {
+    color: white;
+    font-weight: bold;
+    font-family: Verdana;
+    text-decoration: none;
+    border: 3px solid white;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: #DC4437;
+}
+
+#nav-bar a:hover, #shop a:hover {
+    color: #DC4437;
+    font-family: Verdana;
+    text-decoration: none;
+    border: 2px solid #DC4437;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.container {
+    margin: 5px;
+    padding: 35px 0px;
+}
+
 .row {
     display: flex;
     flex-direction: row;
     flex-direction: wrap;
     width: 100%;
+    text-align: center;
 }
 
 .column {
@@ -26,4 +61,20 @@ nav {
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6px;
+}
+
+h1 {
+    color: #DC4437;
+    font-size: 40px;
+}
+
+#subscribe {
+    font-family: Arial;
 }
