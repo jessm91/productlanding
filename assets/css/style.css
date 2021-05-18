@@ -97,3 +97,9 @@ p {
 #submit {
     background-color: #DCDCDC;
 }
+
+@media (max-width: 550px){
+    #shop a {
+        font-size: 12px;
+    }
+}
