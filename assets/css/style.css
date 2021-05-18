@@ -31,14 +31,13 @@ nav {
     color: #DC4437;
     font-family: Verdana;
     text-decoration: none;
-    border: 2px solid #DC4437;
+    border: 3px solid #DC4437;
     border-radius: 25px;
     background-color: white;
 }
 
 .container {
     margin: 5px;
-    padding: 35px 0px;
 }
 
 .row {
@@ -67,14 +66,34 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 6px;
+    width: 40%;
 }
 
 h1 {
     color: #DC4437;
-    font-size: 40px;
+    font-size: 56px;
+}
+
+h2 {
+    font-size: 42px;
+    padding-top: 20px;
+}
+
+p {
+    font-family: 'Chilanka', cursive;
+    padding-left: 15px;
 }
 
 #subscribe {
     font-family: Arial;
+}
+
+#email {
+    outline: none;
+    background-color: white;
+    border: 1px solid #F6D28B;
+}
+
+#submit {
+    background-color: #DCDCDC;
 }
