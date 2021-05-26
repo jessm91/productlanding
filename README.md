@@ -2,11 +2,11 @@
 
 ## Description
 
-This is a product landing page for an online hot sauce retail company and was created using HTML and CSS. This is the first project for the Responsive Web Design Certificate through freecodecamp.org
+This is a product landing page for an online hot sauce retail company and was created using HTML and CSS. This is the third project for the Responsive Web Design Certificate through freecodecamp.org
 
 ## Deployment
 
-https://jessm91.github.io/surveyform/
+https://jessm91.github.io/productlanding/
 
 ## Credits
 
