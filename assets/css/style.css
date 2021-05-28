@@ -43,7 +43,7 @@ nav {
 .row {
     display: flex;
     flex-direction: row;
-    flex-direction: wrap;
+    flex-wrap: wrap;
     width: 100%;
     text-align: center;
 }
@@ -103,6 +103,10 @@ p {
     nav {
     position: sticky;
     }
+
+    #shop {
+        padding-top: 10px;
+    }
 }
 
 @media (max-width: 600px){
@@ -111,7 +115,12 @@ p {
         position: sticky;
         }
     
+    #nav-bar ul li {
+        padding: 40px;
+        white-space: nowrap;
+    }
+
     #shop a {
-        font-size: 12px;
+        white-space: nowrap;
     }
 }
