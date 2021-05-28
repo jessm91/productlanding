@@ -98,7 +98,19 @@ p {
     background-color: #DCDCDC;
 }
 
-@media (max-width: 550px){
+@media (max-width: 800px){
+
+    nav {
+    position: sticky;
+    }
+}
+
+@media (max-width: 600px){
+
+    nav {
+        position: sticky;
+        }
+    
     #shop a {
         font-size: 12px;
     }
